@@ -1,0 +1,9 @@
+@media screen and (min-width: 992px) {
+	/*Desktop and above resolutions*/
+	body {
+		font-family: arial;
+		font-size: 14pt;
+		color: green;
+		background-color: lightblue;
+	}
+}

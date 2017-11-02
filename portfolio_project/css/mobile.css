@@ -1,0 +1,8 @@
+@media screen and (max-width: 480px) {
+	/*All css for mobile devices defined here*/
+}
+
+/*Default Styling included in mobile*/
+header {
+	text-align: right;
+}
