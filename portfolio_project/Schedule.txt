@@ -1,4 +1,6 @@
 Nov. 2, 2017
 Goal: Create header html
-Nov. 3, 2017
-Goal:
+Nov. 5, 2017
+Goal: css header & page image
+Nov. 8, 2017
+Finished first draft
