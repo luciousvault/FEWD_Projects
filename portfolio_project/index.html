@@ -1,17 +1,43 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Hello World!!!</title>
+		<title>Udacity Portfolio Recreation</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1" >
-		<link rel="tablet" type="text/css" href="css/tablet.css" >
-		<link rel="desktop" type="text/css" href="css/desktop.css" >
-		<link rel="mobile" type="text/css" href="css/mobile.css" >
+		<link rel="stylesheet" type="text/css" href="css/tablet.css" >
+		<link rel="stylesheet" type="text/css" href="css/desktop.css" >
+		<link rel="stylesheet" type="text/css" href="css/mobile.css" >
 	</head>
 	<body>
-		<header>
-			<h1>Chris Williams</h1>
-			<h4>Java and Web Designer</h4>
+		<header class="headerContent">
+			<aside>
+				<img alt="Udacity Logo" src="img/udacity_logo.png" class="udacityLogo" />
+			</aside>
+			<div class="headerItem">
+				<h1>Chris Williams</h1>
+				<h4>Java and Web Designer</h4>
+			</div>
+			<hr class="bigHrTag headerItem"/>
+			<div class="headerItem">
+				<img alt="Image of html at an angle" src="img/html.png" class="headerImg"/>
+			</div>
 		</header>
-		<hr />
+		<section id="articleContainer" class="featureContainer">
+			<h2>Featured Work</h2>
+			<article class="featureItem">
+				<img alt="Angled image of app store button" src="img/appify.png" />
+				<h3>APPIFY</h3>
+				<span>https:github.com/udacity/Appify/</span>
+			</article>
+			<article class="featureItem">
+				<img alt="picture of a sunflower" src="img/sunflower.png" />
+				<h3>SUNFLOWER</h3>
+				<span>https:github.com/udacity/Sunflower/</span>
+			</article>
+			<article class="featureItem">
+				<img alt="bokeh picture of the sun" src="img/bokeh.png" />
+				<h3>BOKEH</h3>
+				<span>https:github.com/udacity/Bokeh/</span>
+			</article>
+		</section>
 	</body>
 </html>
