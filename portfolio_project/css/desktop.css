@@ -1,0 +1,8 @@
+@media screen and (min-width: 992px) {
+	/*Desktop and above resolutions*/
+	.featureContainer {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+	}
+}

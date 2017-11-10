@@ -1,0 +1,83 @@
+/*Default Styling included in mobile*/
+body {
+	font-family: arial;
+	font-size: 14pt;
+}
+
+h2 {
+	color: #7d97ad;
+	width: 100%;
+}
+
+header {
+	text-align: right;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+h4 > header {
+	font-style: italic;
+}
+
+h3 > section {
+	color: #2d3c49;
+}
+
+aside {
+	display: inline-flex;
+}
+
+.bigHrTag {
+	border: solid 2px #7d97ad;
+	width: 100%;
+}
+
+.udacityLogo {
+	align-self: center;
+	width: 64px;
+	height: 64px;
+}
+
+.headerImg {
+	max-width: 100%;
+	height: auto;
+}
+
+.headerContent {
+	display: flex;
+	flex-direction: row;
+}
+
+.headerItem {
+	flex-grow: 1;
+	flex-shrink: 10;
+}
+
+.featureContainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.featureItem {
+	flex-grow: 1;
+	text-align: center;
+	color: #2d3c49;
+}
+
+@media screen and (max-width: 480px) {
+	/*All css for mobile devices defined here*/
+	.featureContainer {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.featureItem {
+		flex-grow: 1;
+		text-align: center;
+	}
+}
+
+
