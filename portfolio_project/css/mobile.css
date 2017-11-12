@@ -28,39 +28,39 @@ aside {
 	display: inline-flex;
 }
 
-.bigHrTag {
+.big-hr-tag {
 	border: solid 2px #7d97ad;
 	width: 100%;
 }
 
-.udacityLogo {
+.udacity-logo {
 	align-self: center;
 	width: 64px;
 	height: 64px;
 }
 
-.headerImg {
+.header-img {
 	max-width: 100%;
 	height: auto;
 }
 
-.headerContent {
+.header-content {
 	display: flex;
 	flex-direction: row;
 }
 
-.headerItem {
+.header-item {
 	flex-grow: 1;
 	flex-shrink: 10;
 }
 
-.featureContainer {
+.feature-container {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 }
 
-.featureItem {
+.feature-item {
 	flex-grow: 1;
 	text-align: center;
 	color: #2d3c49;
@@ -68,13 +68,13 @@ aside {
 
 @media screen and (max-width: 480px) {
 	/*All css for mobile devices defined here*/
-	.featureContainer {
+	.feature-container {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
 	}
 
-	.featureItem {
+	.feature-item {
 		flex-grow: 1;
 		text-align: center;
 	}

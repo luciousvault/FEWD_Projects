@@ -1,6 +1,6 @@
 @media screen and (max-width: 991px) and (min-width: 481px) {
 	/*Tablet css*/
-	.featureContainer {
+	.feature-container {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
